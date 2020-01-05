@@ -14,7 +14,7 @@ public class GuessingGame {
 		int guessingAttempts = 0;
 		
 		while(guessingAttempts <3) {
-			System.out.println(";three tries");
+			//System.out.println(";three tries");
 			guessingAttempts +=1;
 		
 		if(numberG == -1) {
@@ -32,7 +32,7 @@ public class GuessingGame {
 		
 			}
 			else if(numberG < 7 ) {
-				System.out.println("the secret number is greater than your guess.  Guess again");
+				System.out.println("the secret number is greater than your guess.  Guess again...");
 			}
 			else if(numberG > 7 ) {
 				System.out.println("the secret number is less than your guess.  Guess again");
@@ -43,7 +43,7 @@ public class GuessingGame {
 			}
 				
 		}
-		number.close();;
+		number.close();
 	}
 }
 	
