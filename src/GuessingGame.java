@@ -21,7 +21,7 @@ public class GuessingGame {
 		while (guessingAttempts < 3) {
 			System.out.println(";You get three tries");
 			if (guessingAttempts == -1) {
-			System.out.println("You lose!!!");
+				//System.out.println(You lose!!!);
 			}
 
 			// while(guessingAttempts !=7 || guessingAttempts !=0) {

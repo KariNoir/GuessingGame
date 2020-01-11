@@ -17,14 +17,15 @@ public class StringsDemo {
 		  System.out.println("This is odd, because, you know,");
 		  System.out.println("They hadn't any feet.");
 		}
+		}
 		
 		
 		
 		public String helloName(String name) {
 			   return ("Hello " + name + "!");
-		}
-			}
 			   
+			   
+		
 	}
 
 }
